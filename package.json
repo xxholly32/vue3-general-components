@@ -2,7 +2,7 @@
   "name": "vue3-general-components",
   "version": "0.0.0",
   "scripts": {
-    "dev": "cross-env DEBUG=* vitepress dev docs",
+    "dev": "vitepress dev docs",
     "build": "vitepress build .",
     "build:all": "npm run clean && npm run build:es",
     "build:es": "rollup --config build/rollup.config.es.js"
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "cross-env": "^7.0.2",
     "rimraf": "^3.0.2",
     "rollup": "^1.16.7",
     "rollup-plugin-babel": "^3.0.7",
