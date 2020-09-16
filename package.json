@@ -1,6 +1,6 @@
 {
   "name": "vue3-general-components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vitepress dev docs",
     "clean": "rimraf lib && mkdir lib",
