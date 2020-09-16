@@ -1,6 +1,24 @@
 {
   "name": "vue3-general-components",
   "version": "0.0.1",
+  "main": "lib/index.esm.js",
+  "module": "lib/index.esm.js",
+  "author": {
+    "name": "xiangxiao",
+    "email": "xxholly32@163.com"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "description": "repo for vue3 components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxholly32/vue3-general-components"
+  },
+  "bugs": {
+    "url": "https://github.com/xxholly32/vue3-general-components/issues"
+  },
   "scripts": {
     "dev": "vitepress dev docs",
     "clean": "rimraf lib && mkdir lib",
