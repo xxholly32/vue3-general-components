@@ -6,7 +6,7 @@ if you are using vue2 you can use litter bother [vue-general-components](https:/
 
 ## TODO
 
-+ [ ] TSX
++ [x] TSX
 + [ ] Component Test
 + [ ] Sass ..
 

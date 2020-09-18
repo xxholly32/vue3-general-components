@@ -5,6 +5,6 @@
     "outDir": "../dist",
     "module": "esnext",
     "lib": ["ESNext", "DOM"],
-    "jsx": "preserve"
+    "jsxFactory": "vueJsxCompat"
   }
 }
