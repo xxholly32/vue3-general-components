@@ -4,4 +4,11 @@ this is a framework for vue3 general components base on [vue ui](https://github.
 
 if you are using vue2 you can use litter bother [vue-general-components](https://xxholly32.github.io/vue-general-components/)
 
-I was still work with on change vue ui to vue3
+## TODO
+
++ [ ] TSX
++ [ ] Component Test
++ [ ] Sass ..
+
+I was still work with on change vue/ui to vue3
+
