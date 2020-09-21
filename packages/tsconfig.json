@@ -4,7 +4,6 @@
     "baseUrl": ".",
     "outDir": "../dist",
     "module": "esnext",
-    "lib": ["ESNext", "DOM"],
-    "jsxFactory": "vueJsxCompat"
+    "lib": ["ESNext", "DOM"]
   }
 }

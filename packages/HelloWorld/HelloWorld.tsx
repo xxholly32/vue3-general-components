@@ -1,5 +1,4 @@
 import { defineComponent, ref } from "vue";
-import { vueJsxCompat } from '../vue-jsx-compat';
 import './style/index.css';
 
 export interface HelloWorldProps {
