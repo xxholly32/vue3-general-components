@@ -16,7 +16,7 @@ with vue3 you can clone this repo and `yarn install`
 
 `yarn dev`
 
-Components Docs use [vitepress](https://github.com/vuejs/vitepress) to display, but vitepress is still WIP. There is a temporary problem with running the document unless you're using the latest version of VitePress.
+Components Docs use [vitepress](https://github.com/vuejs/vitepress) to display.
 
 ## Components compile
 
