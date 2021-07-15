@@ -41,6 +41,27 @@
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@hutson/parse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
   integrity sha1-mMI8lQo9m2yPDa7QbabDrwaYE0A=
 
+"@nodelib/fs.scandir@2.1.5":
+  version "2.1.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
+  integrity sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=
+  dependencies:
+    "@nodelib/fs.stat" "2.0.5"
+    run-parallel "^1.1.9"
+
+"@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
+  version "2.0.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz#5bd262af94e9d25bd1e71b05deed44876a222e8b"
+  integrity sha1-W9Jir5Tp0lvR5xsF3u1Eh2oiLos=
+
+"@nodelib/fs.walk@^1.2.3":
+  version "1.2.8"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz#e95737e8bb6746ddedf69c556953494f196fe69a"
+  integrity sha1-6Vc36LtnRt3t9pxVaVNJTxlv5po=
+  dependencies:
+    "@nodelib/fs.scandir" "2.1.5"
+    fastq "^1.6.0"
+
 "@types/estree@^0.0.48":
   version "0.0.48"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@types/estree/-/estree-0.0.48.tgz#18dc8091b285df90db2f25aa7d906cfc394b7f74"
@@ -50,6 +71,11 @@
   version "1.2.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@types/minimist/-/minimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
   integrity sha1-KD9mn/dte4Jg34q3pCYsyD2YglY=
+
+"@types/node@^14.14.37":
+  version "14.17.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@types/node/-/node-14.17.5.tgz#b59daf6a7ffa461b5648456ca59050ba8e40ed54"
+  integrity sha1-tZ2van/6RhtWSEVspZBQuo5A7VQ=
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -80,7 +106,7 @@
     "@vue/compiler-core" "3.1.4"
     "@vue/shared" "3.1.4"
 
-"@vue/compiler-sfc@^3.0.5":
+"@vue/compiler-sfc@^3.0.11", "@vue/compiler-sfc@^3.0.5":
   version "3.1.4"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@vue/compiler-sfc/-/compiler-sfc-3.1.4.tgz#93e87db950e0711339c18baa7bb7d28d3522d7bc"
   integrity sha1-k+h9uVDgcRM5wYuqe7fSjTUi17w=
@@ -110,6 +136,11 @@
   dependencies:
     "@vue/compiler-dom" "3.1.4"
     "@vue/shared" "3.1.4"
+
+"@vue/devtools-api@^6.0.0-beta.14":
+  version "6.0.0-beta.15"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@vue/devtools-api/-/devtools-api-6.0.0-beta.15.tgz#ad7cb384e062f165bcf9c83732125bffbc2ad83d"
+  integrity sha1-rXyzhOBi8WW8+cg3MhJb/7wq2D0=
 
 "@vue/reactivity@3.1.4":
   version "3.1.4"
@@ -165,7 +196,7 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-ansi-styles@^4.0.0:
+ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ansi-styles/-/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
   integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
@@ -186,6 +217,11 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+
+available-typed-arrays@^1.0.2:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/available-typed-arrays/-/available-typed-arrays-1.0.4.tgz#9e0ae84ecff20caae6a94a1c3bc39b955649b7a9"
+  integrity sha1-ngroTs/yDKrmqUocO8OblVZJt6k=
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -228,6 +264,13 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
+braces@^3.0.1:
+  version "3.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
+  dependencies:
+    fill-range "^7.0.1"
+
 buffer-from@^1.0.0:
   version "1.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
@@ -242,6 +285,14 @@ buffers@~0.1.1:
   version "0.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/buffers/-/buffers-0.1.1.tgz#b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb"
   integrity sha1-skV5w77U1tOWru5tmorn9Ugqt7s=
+
+call-bind@^1.0.0, call-bind@^1.0.2:
+  version "1.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
+  integrity sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw=
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
 
 camelcase-keys@^4.0.0:
   version "4.2.0"
@@ -286,6 +337,14 @@ chalk@^2.0.0, chalk@^2.4.2:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+chalk@^4.1.1:
+  version "4.1.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
+  integrity sha1-yAs/qyi/Y3HmhjMl7uZ+YYt35q0=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
 cliui@^6.0.0:
   version "6.0.0"
@@ -603,6 +662,13 @@ dateformat@^3.0.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha1-puN0maTZqc+F71hyBE1ikByYia4=
 
+debug@^4.3.2:
+  version "4.3.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha1-8KScGKyHeeMdSgxgKd+3aHPHQos=
+  dependencies:
+    ms "2.1.2"
+
 decamelize-keys@^1.0.0, decamelize-keys@^1.1.0:
   version "1.1.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/decamelize-keys/-/decamelize-keys-1.1.0.tgz#d171a87933252807eb3cb61dc1c1445d078df2d9"
@@ -615,6 +681,34 @@ decamelize@^1.1.0, decamelize@^1.2.0:
   version "1.2.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
+
+deep-equal@^2.0.5:
+  version "2.0.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/deep-equal/-/deep-equal-2.0.5.tgz#55cd2fe326d83f9cbf7261ef0e060b3f724c5cb9"
+  integrity sha1-Vc0v4ybYP5y/cmHvDgYLP3JMXLk=
+  dependencies:
+    call-bind "^1.0.0"
+    es-get-iterator "^1.1.1"
+    get-intrinsic "^1.0.1"
+    is-arguments "^1.0.4"
+    is-date-object "^1.0.2"
+    is-regex "^1.1.1"
+    isarray "^2.0.5"
+    object-is "^1.1.4"
+    object-keys "^1.1.1"
+    object.assign "^4.1.2"
+    regexp.prototype.flags "^1.3.0"
+    side-channel "^1.0.3"
+    which-boxed-primitive "^1.0.1"
+    which-collection "^1.0.1"
+    which-typed-array "^1.1.2"
+
+define-properties@^1.1.3:
+  version "1.1.3"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
+  integrity sha1-z4jabL7ib+bbcJT2HYcMvYTO6fE=
+  dependencies:
+    object-keys "^1.0.12"
 
 detect-indent@^6.0.0:
   version "6.1.0"
@@ -672,6 +766,51 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
+es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2:
+  version "1.18.3"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/es-abstract/-/es-abstract-1.18.3.tgz#25c4c3380a27aa203c44b2b685bba94da31b63e0"
+  integrity sha1-JcTDOAonqiA8RLK2hbupTaMbY+A=
+  dependencies:
+    call-bind "^1.0.2"
+    es-to-primitive "^1.2.1"
+    function-bind "^1.1.1"
+    get-intrinsic "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.2"
+    is-callable "^1.2.3"
+    is-negative-zero "^2.0.1"
+    is-regex "^1.1.3"
+    is-string "^1.0.6"
+    object-inspect "^1.10.3"
+    object-keys "^1.1.1"
+    object.assign "^4.1.2"
+    string.prototype.trimend "^1.0.4"
+    string.prototype.trimstart "^1.0.4"
+    unbox-primitive "^1.0.1"
+
+es-get-iterator@^1.1.1:
+  version "1.1.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/es-get-iterator/-/es-get-iterator-1.1.2.tgz#9234c54aba713486d7ebde0220864af5e2b283f7"
+  integrity sha1-kjTFSrpxNIbX694CIIZK9eKyg/c=
+  dependencies:
+    call-bind "^1.0.2"
+    get-intrinsic "^1.1.0"
+    has-symbols "^1.0.1"
+    is-arguments "^1.1.0"
+    is-map "^2.0.2"
+    is-set "^2.0.2"
+    is-string "^1.0.5"
+    isarray "^2.0.5"
+
+es-to-primitive@^1.2.1:
+  version "1.2.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/es-to-primitive/-/es-to-primitive-1.2.1.tgz#e55cd4c9cdc188bcefb03b366c736323fc5c898a"
+  integrity sha1-5VzUyc3BiLzvsDs2bHNjI/xciYo=
+  dependencies:
+    is-callable "^1.1.4"
+    is-date-object "^1.0.1"
+    is-symbol "^1.0.2"
+
 esbuild@^0.12.8:
   version "0.12.14"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/esbuild/-/esbuild-0.12.14.tgz#43157dbd0b36d939247d4eb4909a4886ac40f82e"
@@ -687,12 +826,37 @@ estree-walker@^2.0.1:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
 
+fast-glob@^3.2.5:
+  version "3.2.7"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/fast-glob/-/fast-glob-3.2.7.tgz#fd6cb7a2d7e9aa7a7846111e85a196d6b2f766a1"
+  integrity sha1-/Wy3otfpqnp4RhEehaGW1rL3ZqE=
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.2"
+    merge2 "^1.3.0"
+    micromatch "^4.0.4"
+
+fastq@^1.6.0:
+  version "1.11.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/fastq/-/fastq-1.11.1.tgz#5d8175aae17db61947f8b162cfc7f63264d22807"
+  integrity sha1-XYF1quF9thlH+LFiz8f2MmTSKAc=
+  dependencies:
+    reusify "^1.0.4"
+
 figures@^3.1.0:
   version "3.2.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
   integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
   dependencies:
     escape-string-regexp "^1.0.5"
+
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
+  integrity sha1-GRmmp8df44ssfHflGYU12prN2kA=
+  dependencies:
+    to-regex-range "^5.0.1"
 
 find-up@^2.0.0:
   version "2.1.0"
@@ -715,6 +879,11 @@ find-up@^4.1.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+foreach@^2.0.5:
+  version "2.0.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+  integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
 fs-access@^1.0.1:
   version "1.0.1"
@@ -759,6 +928,15 @@ get-caller-file@^2.0.1:
   version "2.0.5"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
+
+get-intrinsic@^1.0.1, get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
+  version "1.1.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/get-intrinsic/-/get-intrinsic-1.1.1.tgz#15f59f376f855c446963948f0d24cd3637b4abc6"
+  integrity sha1-FfWfN2+FXERpY5SPDSTNNje0q8Y=
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
 
 get-pkg-repo@^4.0.0:
   version "4.1.2"
@@ -815,6 +993,13 @@ gitconfiglocal@^1.0.0:
   dependencies:
     ini "^1.3.2"
 
+glob-parent@^5.1.2:
+  version "5.1.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  integrity sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=
+  dependencies:
+    is-glob "^4.0.1"
+
 glob@^7.1.3:
   version "7.1.7"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/glob/-/glob-7.1.7.tgz#3b193e9233f01d42d0b3f78294bbeeb418f94a90"
@@ -849,10 +1034,25 @@ hard-rejection@^2.1.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/hard-rejection/-/hard-rejection-2.1.0.tgz#1c6eda5c1685c63942766d79bb40ae773cecd883"
   integrity sha1-HG7aXBaFxjlCdm15u0Cudzzs2IM=
 
+has-bigints@^1.0.1:
+  version "1.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/has-bigints/-/has-bigints-1.0.1.tgz#64fe6acb020673e3b78db035a5af69aa9d07b113"
+  integrity sha1-ZP5qywIGc+O3jbA1pa9pqp0HsRM=
+
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
+  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
+
+has-symbols@^1.0.1, has-symbols@^1.0.2:
+  version "1.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
+  integrity sha1-Fl0wcMADCXUqEjakeTMeOsVvFCM=
 
 has@^1.0.3:
   version "1.0.3"
@@ -916,10 +1116,34 @@ ini@^1.3.2:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
 
+is-arguments@^1.0.4, is-arguments@^1.1.0:
+  version "1.1.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-arguments/-/is-arguments-1.1.0.tgz#62353031dfbee07ceb34656a6bde59efecae8dd9"
+  integrity sha1-YjUwMd++4HzrNGVqa95Z7+yujdk=
+  dependencies:
+    call-bind "^1.0.0"
+
 is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
   integrity sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
+
+is-bigint@^1.0.1:
+  version "1.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-bigint/-/is-bigint-1.0.2.tgz#ffb381442503235ad245ea89e45b3dbff040ee5a"
+  integrity sha1-/7OBRCUDI1rSReqJ5Fs9v/BA7lo=
+
+is-boolean-object@^1.1.0:
+  version "1.1.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-boolean-object/-/is-boolean-object-1.1.1.tgz#3c0878f035cb821228d350d2e1e36719716a3de8"
+  integrity sha1-PAh48DXLghIo01DS4eNnGXFqPeg=
+  dependencies:
+    call-bind "^1.0.2"
+
+is-callable@^1.1.4, is-callable@^1.2.3:
+  version "1.2.3"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-callable/-/is-callable-1.2.3.tgz#8b1e0500b73a1d76c70487636f368e519de8db8e"
+  integrity sha1-ix4FALc6HXbHBIdjbzaOUZ3o244=
 
 is-core-module@^2.2.0:
   version "2.4.0"
@@ -928,10 +1152,47 @@ is-core-module@^2.2.0:
   dependencies:
     has "^1.0.3"
 
+is-date-object@^1.0.1, is-date-object@^1.0.2:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-date-object/-/is-date-object-1.0.4.tgz#550cfcc03afada05eea3dd30981c7b09551f73e5"
+  integrity sha1-VQz8wDr62gXuo90wmBx7CVUfc+U=
+
+is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+  integrity sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
+
 is-fullwidth-code-point@^3.0.0:
   version "3.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
   integrity sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=
+
+is-glob@^4.0.1:
+  version "4.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
+  integrity sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw=
+  dependencies:
+    is-extglob "^2.1.1"
+
+is-map@^2.0.1, is-map@^2.0.2:
+  version "2.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-map/-/is-map-2.0.2.tgz#00922db8c9bf73e81b7a335827bc2a43f2b91127"
+  integrity sha1-AJItuMm/c+gbejNYJ7wqQ/K5ESc=
+
+is-negative-zero@^2.0.1:
+  version "2.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-negative-zero/-/is-negative-zero-2.0.1.tgz#3de746c18dda2319241a53675908d8f766f11c24"
+  integrity sha1-PedGwY3aIxkkGlNnWQjY92bxHCQ=
+
+is-number-object@^1.0.4:
+  version "1.0.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-number-object/-/is-number-object-1.0.5.tgz#6edfaeed7950cff19afedce9fbfca9ee6dd289eb"
+  integrity sha1-bt+u7XlQz/Ga/tzp+/yp7m3Sies=
+
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
 is-obj@^1.0.0:
   version "1.0.1"
@@ -948,12 +1209,63 @@ is-plain-obj@^1.1.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
+is-regex@^1.1.1, is-regex@^1.1.3:
+  version "1.1.3"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-regex/-/is-regex-1.1.3.tgz#d029f9aff6448b93ebbe3f33dac71511fdcbef9f"
+  integrity sha1-0Cn5r/ZEi5Prvj8z2scVEf3L758=
+  dependencies:
+    call-bind "^1.0.2"
+    has-symbols "^1.0.2"
+
+is-set@^2.0.1, is-set@^2.0.2:
+  version "2.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-set/-/is-set-2.0.2.tgz#90755fa4c2562dc1c5d4024760d6119b94ca18ec"
+  integrity sha1-kHVfpMJWLcHF1AJHYNYRm5TKGOw=
+
+is-string@^1.0.5, is-string@^1.0.6:
+  version "1.0.6"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-string/-/is-string-1.0.6.tgz#3fe5d5992fb0d93404f32584d4b0179a71b54a5f"
+  integrity sha1-P+XVmS+w2TQE8yWE1LAXmnG1Sl8=
+
+is-symbol@^1.0.2, is-symbol@^1.0.3:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-symbol/-/is-symbol-1.0.4.tgz#a6dac93b635b063ca6872236de88910a57af139c"
+  integrity sha1-ptrJO2NbBjymhyI23oiRClevE5w=
+  dependencies:
+    has-symbols "^1.0.2"
+
 is-text-path@^1.0.1:
   version "1.0.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-text-path/-/is-text-path-1.0.1.tgz#4e1aa0fb51bfbcb3e92688001397202c1775b66e"
   integrity sha1-Thqg+1G/vLPpJogAE5cgLBd1tm4=
   dependencies:
     text-extensions "^1.0.0"
+
+is-typed-array@^1.1.3:
+  version "1.1.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-typed-array/-/is-typed-array-1.1.5.tgz#f32e6e096455e329eb7b423862456aa213f0eb4e"
+  integrity sha1-8y5uCWRV4ynre0I4YkVqohPw604=
+  dependencies:
+    available-typed-arrays "^1.0.2"
+    call-bind "^1.0.2"
+    es-abstract "^1.18.0-next.2"
+    foreach "^2.0.5"
+    has-symbols "^1.0.1"
+
+is-weakmap@^2.0.1:
+  version "2.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-weakmap/-/is-weakmap-2.0.1.tgz#5008b59bdc43b698201d18f62b37b2ca243e8cf2"
+  integrity sha1-UAi1m9xDtpggHRj2KzeyyiQ+jPI=
+
+is-weakset@^2.0.1:
+  version "2.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/is-weakset/-/is-weakset-2.0.1.tgz#e9a0af88dbd751589f5e50d80f4c98b780884f83"
+  integrity sha1-6aCviNvXUVifXlDYD0yYt4CIT4M=
+
+isarray@^2.0.5:
+  version "2.0.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
+  integrity sha1-ivHkwSISRMxiRZ+vOJQNTmRKVyM=
 
 isarray@~1.0.0:
   version "1.0.0"
@@ -986,6 +1298,13 @@ json5@^1.0.1:
   integrity sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4=
   dependencies:
     minimist "^1.2.0"
+
+json5@^2.2.0:
+  version "2.2.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha1-Lf7+cgxrpSXZ69kJlQ8FFTFsiaM=
+  dependencies:
+    minimist "^1.2.5"
 
 jsonparse@^1.2.0:
   version "1.3.1"
@@ -1184,6 +1503,19 @@ merge-source-map@^1.1.0:
   dependencies:
     source-map "^0.6.1"
 
+merge2@^1.3.0:
+  version "1.4.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
+  integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
+
+micromatch@^4.0.4:
+  version "4.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
+  integrity sha1-iW1Rnf6dsl/OlM63pQCRm/iB6/k=
+  dependencies:
+    braces "^3.0.1"
+    picomatch "^2.2.3"
+
 min-indent@^1.0.0:
   version "1.0.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
@@ -1230,6 +1562,11 @@ modify-values@^1.0.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha1-s5OfpgVUZHTj4+PGPWS9Q7TuYCI=
 
+ms@2.1.2:
+  version "2.1.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
+
 nanoid@^3.1.23:
   version "3.1.23"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
@@ -1269,6 +1606,34 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+
+object-inspect@^1.10.3, object-inspect@^1.9.0:
+  version "1.11.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/object-inspect/-/object-inspect-1.11.0.tgz#9dceb146cedd4148a0d9e51ab88d34cf509922b1"
+  integrity sha1-nc6xRs7dQUig2eUauI00z1CZIrE=
+
+object-is@^1.1.4:
+  version "1.1.5"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/object-is/-/object-is-1.1.5.tgz#b9deeaa5fc7f1846a0faecdceec138e5778f53ac"
+  integrity sha1-ud7qpfx/GEag+uzc7sE45XePU6w=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+
+object-keys@^1.0.12, object-keys@^1.1.1:
+  version "1.1.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
+  integrity sha1-HEfyct8nfzsdrwYWd9nILiMixg4=
+
+object.assign@^4.1.2:
+  version "4.1.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/object.assign/-/object.assign-4.1.2.tgz#0ed54a342eceb37b38ff76eb831a0e788cb63940"
+  integrity sha1-DtVKNC7Os3s4/3brgxoOeIy2OUA=
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+    has-symbols "^1.0.1"
+    object-keys "^1.1.1"
 
 once@^1.3.0:
   version "1.4.0"
@@ -1367,6 +1732,11 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+picomatch@^2.2.3:
+  version "2.3.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
+  integrity sha1-8fBh3o9qS/AiiS4tEoI0+5gwKXI=
+
 pify@^2.3.0:
   version "2.3.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -1450,6 +1820,11 @@ q@^1.5.1:
   version "1.5.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+
+queue-microtask@^1.2.2:
+  version "1.2.3"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
+  integrity sha1-SSkii7xyTfrEPg77BYyve2z7YkM=
 
 quick-lru@^1.0.0:
   version "1.1.0"
@@ -1535,6 +1910,14 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+regexp.prototype.flags@^1.3.0:
+  version "1.3.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/regexp.prototype.flags/-/regexp.prototype.flags-1.3.1.tgz#7ef352ae8d159e758c0eadca6f8fcb4eef07be26"
+  integrity sha1-fvNSro0VnnWMDq3Kb4/LTu8HviY=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -1553,6 +1936,11 @@ resolve@^1.10.0, resolve@^1.20.0:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
+reusify@^1.0.4:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
+  integrity sha1-kNo4Kx4SbvwCFG6QhFqI2xKSXXY=
+
 rimraf@2:
   version "2.7.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
@@ -1566,6 +1954,13 @@ rollup@^2.38.5:
   integrity sha1-4VqL9zT25MIEt83zNSEVExAlDLI=
   optionalDependencies:
     fsevents "~2.3.2"
+
+run-parallel@^1.1.9:
+  version "1.2.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/run-parallel/-/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
+  integrity sha1-ZtE2jae9+SHrnZW9GpIp5/IaQ+4=
+  dependencies:
+    queue-microtask "^1.2.2"
 
 safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -1603,6 +1998,15 @@ setimmediate@~1.0.4:
   version "1.0.5"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
   integrity sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
+
+side-channel@^1.0.3:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
+  integrity sha1-785cj9wQTudRslxY1CkAEfpeos8=
+  dependencies:
+    call-bind "^1.0.0"
+    get-intrinsic "^1.0.2"
+    object-inspect "^1.9.0"
 
 signal-exit@^3.0.0:
   version "3.0.3"
@@ -1706,6 +2110,22 @@ string-width@^4.1.0, string-width@^4.2.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
 
+string.prototype.trimend@^1.0.4:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/string.prototype.trimend/-/string.prototype.trimend-1.0.4.tgz#e75ae90c2942c63504686c18b287b4a0b1a45f80"
+  integrity sha1-51rpDClCxjUEaGwYsoe0oLGkX4A=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+
+string.prototype.trimstart@^1.0.4:
+  version "1.0.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/string.prototype.trimstart/-/string.prototype.trimstart-1.0.4.tgz#b36399af4ab2999b4c9c648bd7a3fb2bb26feeed"
+  integrity sha1-s2OZr0qymZtMnGSL16P7K7Jv7u0=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+
 string_decoder@^1.1.1:
   version "1.3.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/string_decoder/-/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
@@ -1756,6 +2176,13 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+supports-color@^7.1.0:
+  version "7.2.0"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
+  dependencies:
+    has-flag "^4.0.0"
+
 temp-dir@^2.0.0:
   version "2.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/temp-dir/-/temp-dir-2.0.0.tgz#bde92b05bdfeb1516e804c9c00ad45177f31321e"
@@ -1798,6 +2225,13 @@ to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
+
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
+  dependencies:
+    is-number "^7.0.0"
 
 "traverse@>=0.3.0 <0.4":
   version "0.3.9"
@@ -1854,6 +2288,16 @@ uglify-js@^3.1.4:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/uglify-js/-/uglify-js-3.13.10.tgz#a6bd0d28d38f592c3adb6b180ea6e07e1e540a8d"
   integrity sha1-pr0NKNOPWSw622sYDqbgfh5UCo0=
 
+unbox-primitive@^1.0.1:
+  version "1.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/unbox-primitive/-/unbox-primitive-1.0.1.tgz#085e215625ec3162574dc8859abee78a59b14471"
+  integrity sha1-CF4hViXsMWJXTciFmr7nilmxRHE=
+  dependencies:
+    function-bind "^1.1.1"
+    has-bigints "^1.0.1"
+    has-symbols "^1.0.2"
+    which-boxed-primitive "^1.0.2"
+
 unzipper@0.10.11:
   version "0.10.11"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/unzipper/-/unzipper-0.10.11.tgz#0b4991446472cbdb92ee7403909f26c2419c782e"
@@ -1888,6 +2332,30 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vite-plugin-pages@^0.9.3:
+  version "0.9.8"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vite-plugin-pages/-/vite-plugin-pages-0.9.8.tgz#a207bb90d8940c65cf88a195a96c2e65997f337a"
+  integrity sha1-oge7kNiUDGXPiKGVqWwuZZl/M3o=
+  dependencies:
+    "@vue/compiler-sfc" "^3.0.11"
+    chalk "^4.1.1"
+    debug "^4.3.2"
+    deep-equal "^2.0.5"
+    fast-glob "^3.2.5"
+    json5 "^2.2.0"
+    yaml "^2.0.0-5"
+
+vite-plugin-vue-layouts@^0.2.2:
+  version "0.2.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vite-plugin-vue-layouts/-/vite-plugin-vue-layouts-0.2.2.tgz#b630ff2a557c5995a5a86507f5dc304a99c6b1a8"
+  integrity sha1-tjD/KlV8WZWlqGUH9dwwSpnGsag=
+  dependencies:
+    "@vue/compiler-sfc" "^3.0.5"
+    debug "^4.3.2"
+    fast-glob "^3.2.5"
+    vue "^3.0.5"
+    vue-router "^4.0.3"
+
 vite@^2.4.2:
   version "2.4.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vite/-/vite-2.4.2.tgz#07d00615775c808530bc9f65641062b349b67929"
@@ -1900,6 +2368,13 @@ vite@^2.4.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vue-router@^4.0.3, vue-router@^4.0.5:
+  version "4.0.10"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-router/-/vue-router-4.0.10.tgz#ec8fda032949b2a31d3273170f8f376e86eb52ac"
+  integrity sha1-7I/aAylJsqMdMnMXD483bobrUqw=
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.14"
+
 vue-tsc@^0.0.24:
   version "0.0.24"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-tsc/-/vue-tsc-0.0.24.tgz#0cd90db679f53ea1694254b8663fdb3d624a0872"
@@ -1907,7 +2382,7 @@ vue-tsc@^0.0.24:
   dependencies:
     unzipper "0.10.11"
 
-vue@^3.0.0:
+vue@^3.0.0, vue@^3.0.5:
   version "3.1.4"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue/-/vue-3.1.4.tgz#120d6818c51eaa35d0879e5bc1cff60135bc69fd"
   integrity sha1-Eg1oGMUeqjXQh55bwc/2ATW8af0=
@@ -1916,10 +2391,44 @@ vue@^3.0.0:
     "@vue/runtime-dom" "3.1.4"
     "@vue/shared" "3.1.4"
 
+which-boxed-primitive@^1.0.1, which-boxed-primitive@^1.0.2:
+  version "1.0.2"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz#13757bc89b209b049fe5d86430e21cf40a89a8e6"
+  integrity sha1-E3V7yJsgmwSf5dhkMOIc9AqJqOY=
+  dependencies:
+    is-bigint "^1.0.1"
+    is-boolean-object "^1.1.0"
+    is-number-object "^1.0.4"
+    is-string "^1.0.5"
+    is-symbol "^1.0.3"
+
+which-collection@^1.0.1:
+  version "1.0.1"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/which-collection/-/which-collection-1.0.1.tgz#70eab71ebbbd2aefaf32f917082fc62cdcb70906"
+  integrity sha1-cOq3Hru9Ku+vMvkXCC/GLNy3CQY=
+  dependencies:
+    is-map "^2.0.1"
+    is-set "^2.0.1"
+    is-weakmap "^2.0.1"
+    is-weakset "^2.0.1"
+
 which-module@^2.0.0:
   version "2.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
   integrity sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
+
+which-typed-array@^1.1.2:
+  version "1.1.4"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/which-typed-array/-/which-typed-array-1.1.4.tgz#8fcb7d3ee5adf2d771066fba7cf37e32fe8711ff"
+  integrity sha1-j8t9PuWt8tdxBm+6fPN+Mv6HEf8=
+  dependencies:
+    available-typed-arrays "^1.0.2"
+    call-bind "^1.0.0"
+    es-abstract "^1.18.0-next.1"
+    foreach "^2.0.5"
+    function-bind "^1.1.1"
+    has-symbols "^1.0.1"
+    is-typed-array "^1.1.3"
 
 wordwrap@^1.0.0:
   version "1.0.0"
@@ -1959,6 +2468,11 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
+
+yaml@^2.0.0-5:
+  version "2.0.0-6"
+  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/yaml/-/yaml-2.0.0-6.tgz#3d858d656b9ef13a95c77d083b816e6a8d16caa0"
+  integrity sha1-PYWNZWue8TqVx30IO4Fuao0WyqA=
 
 yargs-parser@^18.1.2, yargs-parser@^18.1.3:
   version "18.1.3"
