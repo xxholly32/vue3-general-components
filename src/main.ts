@@ -4,7 +4,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import { setupLayouts } from "layouts-generated";
 import generatedRoutes from "pages-generated";
 
-// import vgc from "/@p/index";
+import 'virtual:windi.css'
 
 (async () => {
   const app = createApp(App);
