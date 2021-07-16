@@ -4,11 +4,11 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import { setupLayouts } from "layouts-generated";
 import generatedRoutes from "pages-generated";
 
-import vgc from "/@p/index";
+// import vgc from "/@p/index";
 
 (async () => {
   const app = createApp(App);
-  app.use(vgc);
+  // app.use(vgc);
   
   const routes = setupLayouts(generatedRoutes);
   const router = createRouter({

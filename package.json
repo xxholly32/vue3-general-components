@@ -26,21 +26,24 @@
     "release": "standard-version && npm run cz:changelog",
     "cz:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
     "@vitejs/plugin-vue": "^1.2.5",
+    "@vitejs/plugin-vue-jsx": "^1.1.6",
+    "@vue/babel-plugin-jsx": "^1.0.6",
     "@vue/compiler-sfc": "^3.0.5",
-    "typescript": "^4.3.2",
-    "vite": "^2.4.2",
-    "vue-tsc": "^0.0.24",
     "conventional-changelog-cli": "^2.0.34",
     "standard-version": "^8.0.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.2",
+    "vite-plugin-md": "^0.6.7",
     "vite-plugin-pages": "^0.9.3",
+    "vite-plugin-vue-layouts": "^0.2.2",
     "vue-router": "^4.0.5",
-    "vite-plugin-vue-layouts": "^0.2.2"
+    "vue-tsc": "^0.0.24"
   },
   "browserslist": [
     "defaults"

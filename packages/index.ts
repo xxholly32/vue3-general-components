@@ -1,5 +1,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
-const components = [HelloWorld];
+import Bar from "./components/Bar/index.vue";
+import Foo from "./components/Foo/index.vue";
+const components = [HelloWorld, Bar, Foo];
 
 const install = function (Vue, opts = {}) {
   if (Vue) {
