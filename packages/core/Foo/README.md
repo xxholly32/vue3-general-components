@@ -3,5 +3,5 @@
 <Foo />
 
 <script setup lang="ts">
-import { Foo } from '/@p/components'
+import { Foo } from '#/components'
 </script>

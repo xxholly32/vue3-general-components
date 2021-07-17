@@ -1,7 +1,7 @@
 <template>
-  <BazDoc />
+  <BarDoc />
 </template>
 
 <script setup lang="ts">
-import BazDoc from '/@p/core/Baz/README.md'
+import BarDoc from '#/core/Bar/README.md'
 </script>

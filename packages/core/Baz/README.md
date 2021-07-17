@@ -3,5 +3,5 @@
 <baz />
 
 <script setup lang="ts">
-import { Baz } from '/@p/components'
+import { Baz } from '#/components'
 </script>

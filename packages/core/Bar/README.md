@@ -3,5 +3,5 @@
 <Bar />
 
 <script setup lang="ts">
-import { Bar } from '/@p/components'
+import { Bar } from '#/components'
 </script>
