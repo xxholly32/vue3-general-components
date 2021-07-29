@@ -1,0 +1,51 @@
+@import "../../theme/index.scss";
+
+.vgc-button {
+  min-width: 64px;
+  line-height: 1.75;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  display: inline-flex;
+  border: 1px solid;
+
+  &:hover {
+    text-decoration: "none";
+  }
+
+  &--default {
+    border-color: var(--vgc-color-gray-50);
+    &:hover {
+      background-color: var(--vgc-color-gray-10);
+    }
+  }
+
+  &--primary {
+    color: var(--vgc-color-primary-60);
+    border-color: var(--vgc-color-primary-60);
+    &:hover {
+      color: var(--vgc-color-primary-50);
+      background-color: var(--vgc-color-primary-10);
+    }
+  }
+
+  &--small {
+    padding: 4px 10px;
+    font-size: 0.8125rem;
+  }
+
+  &--medium {
+    padding: 6px 16px;
+    font-size: 0.875rem;
+  }
+
+  &--large {
+    padding: 8px 22px;
+    font-size: 0.9375rem;
+  }
+}
